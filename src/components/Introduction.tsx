@@ -1,9 +1,10 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
+import { Link } from 'react-router-dom'
 
 const Introduction: React.FC = () => {
     return (
-        <div className='mx-auto px-[20px] pt-[70px] py-[40px] md:px-[50px] md:py-[90px] container lg:px-[120px]'>
+        <div className='mx-auto px-[20px] md:px-[50px] md:py-[90px] md:pb-[144px] container lg:px-[120px]'>
             <div className="flex flex-col md:flex-row justify-center items-center">
                 <div className="w-full md:w-1/2 lg:w-5/12 order-2 md:order-1">
                     <div className="intro-left">
@@ -24,12 +25,12 @@ const Introduction: React.FC = () => {
                         </ReactTyped>
                         <h1 className=' font-bold text-2xl md:text-4xl lg:text-[64px] py-[20px] lg:py-[40px]'>Fuad Ismayil</h1>
                         <article className='text-[24px] text-[#828282]'>
-                            I'm 19 years old and my profession is Frontend Developer. Our essential job is providing reliable and scalable web sites.
+                            I'm {new Date().getFullYear() - 2006 - (new Date() < new Date(new Date().getFullYear(), 9, 16) ? 1 : 0)} years old and my profession is Frontend Developer. Our essential job is providing reliable and scalable web sites.
                         </article>
 
                         <div className="book-a-call flex gap-3 pt-[32px]">
-                            <a href='' className='w-[115px] flex justify-center items-center h-[43px] rounded-[8px] border-2 border-[#FDC435] bg-[#FDC435] text-[#25282B] hover:scale-105 duration-300'>Projects</a>
-                            <a href='https://az.linkedin.com/in/fuad-ismayıl-a15631316' target="_blank" className='w-[117px] flex justify-center items-center h-[43px] rounded-[8px] border-2 hover:scale-105 duration-300'>LinkedIn</a>
+                            <Link to='/projects' className='w-[115px] flex justify-center items-center h-[43px] rounded-[8px] border-2 border-[#FDC435] bg-[#FDC435] text-[#25282B] hover:scale-105 duration-300'>Projects</Link>
+                            <Link to='https://az.linkedin.com/in/fuad-ismayıl-a15631316' target="_blank" className='w-[117px] flex justify-center items-center h-[43px] rounded-[8px] border-2 hover:scale-105 hover:bg-[#25282B] hover:text-white duration-300'>LinkedIn</Link>
                         </div>
 
                     </div>
