@@ -2,7 +2,7 @@ import React from 'react'
 import Introduction from '../components/Introduction'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-import {MarqueeSm} from '../components/Marqueesm'
+import {MarqueeSm} from '../components/MarqueeSm'
 import MarqueeMd from '../components/MarqueeMd'
 
 const Home: React.FC = () => {
