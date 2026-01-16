@@ -5,7 +5,7 @@ A modern, responsive personal portfolio website built with React and TypeScript.
 ## Live Demo
 
 <!-- Add your deployed URL here -->
-[View Portfolio](#)
+[View Portfolio](https://fuadismayil.netlify.app/)
 
 ---
 
