@@ -2,7 +2,7 @@ import React from 'react'
 
 const About:React.FC = () => {
   return (
-    <div className='mx-auto px-[20px] pt-[70px] py-[40px] md:px-[50px] md:py-[90px] container lg:px-[120px]'>
+    <div className='mx-auto px-[20px] md:px-[50px] md:py-[90px] container lg:px-[120px]'>
                 <div className="flex flex-col md:flex-row justify-center items-center">
                     <div className="w-full md:w-1/2 lg:w-5/12 order-2 md:order-1">
                         <div className="intro-left">
